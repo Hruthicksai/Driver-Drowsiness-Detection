@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Large ML models & archives
+*.weights
+*.dat
+*.bz2
+models/*.weights
+models/*.dat
+models/*.bz2
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
